@@ -7,3 +7,5 @@ pkg/
 *.sublime-*
 build/
 *.bundle/
+components/
+build/
