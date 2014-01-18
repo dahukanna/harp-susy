@@ -6,6 +6,7 @@
 
 * [Node.js](http://nodejs.org/) – _Server-side JavaScript runtime_
 * [Harp](http://harpjs.com/) – _The static web server with built-in preprocessing_
+* [Component](http://component.io) – _Client package management for building better web applications_
 
 ## Resources
 
@@ -17,13 +18,20 @@
 
 ## Install
 
-To install Susy, run the following command from the root of your Harp project:
+First, install Harp and Component:
 
-```bash
-harp install susy
+```sh
+sudo npm install -g harp
+sudo npm install -g component
 ```
 
-Compass Core will also be installed, as Susy uses it. Your project will look something like this…
+To install Susy, run the following command from the root of your Harp project:
+
+```sh
+component install harp/susy
+```
+
+[Compass Core](https://github.com/harp/compass) will also be installed, as Susy uses it. Your project will look something like this…
 
 ```
 myproject/                  <-- Your project root (or public dir if in framework-mode)
