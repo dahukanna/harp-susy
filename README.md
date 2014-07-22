@@ -18,16 +18,10 @@
 
 ## Install
 
-First, install Harp and Component:
+To install Susy, you can [download this repository](https://github.com/harp/susy/archive/master.zip) or use the [Component](http://component.io) package manager.
 
-```sh
-sudo npm install -g harp
-sudo npm install -g component
-```
-
-To install Susy, run the following command from the root of your Harp project:
-
-```sh
+```bash
+npm install -g component
 component install harp/susy
 ```
 
